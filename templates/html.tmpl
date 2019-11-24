@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Necrorol</title>
+    <meta name="description" content="Necrorol Full">
+    <link rel="stylesheet" href="./gutenberg.css" media="print">
+    <link rel="stylesheet" href="./gutenberg.css">
+    <link rel="stylesheet" href="./remark.css" media="print">
+    <link rel="stylesheet" href="./remark.css">
+    <style>
+      @@include('../dist/gutenberg.css')
+    </style>
+    <style>
+    @media print {
+      @@include('../dist/gutenberg.css')
+    }
+    </style>
+
+     <style>
+      @@include('../dist/remark.css')
+    </style>
+    <style>
+    @media print {
+      @@include('../dist/remark.css')
+    }
+    </style>
+  </head>
+
+  <body class="A4">
+    <div class="pdf-download">
+      <a href="necrorol.pdf">PDF</a>
+    </div>
+    @@include('../dist/remark.html')
+  </body>
+</html>

@@ -1,0 +1,59 @@
+h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1.3em;
+  }
+  h4 {
+    font-size: 1.1em;
+  }
+
+  section.h3{
+    page-break-inside :  avoid
+  }
+
+  section.h4{
+    page-break-inside :  avoid
+  }
+td, th {
+    text-align: left;
+}
+
+
+table { 
+    table-layout:fixed;
+    font-size: 10px;
+    
+}
+.A4 {
+  width: 19cm;
+    font-size: 0.9em;
+    padding-left: 0cm;
+    padding-right: 0cm;
+}
+td { 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    word-wrap: break-word;
+}
+h1 {
+  background-color: #ccc !important;
+}
+.part {
+    page-break-inside :  avoid;
+}
+.pdf-download {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right:5px;
+    text-align: right;
+}
+@media print {
+    .pdf-download {
+        display:none;
+    }
+}

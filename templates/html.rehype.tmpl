@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Necrorol</title>
+    <meta name="description" content="Necrorol Full">
+    <link rel="stylesheet" href="gutenberg.css" media="print">
+    <link rel="stylesheet" href="gutenberg.css">
+    
+    <style>
+   h1 {
+        font-size: 2em;
+      }
+      h2 {
+        font-size: 1.5em;
+      }
+      h3 {
+        font-size: 1.3em;
+      }
+      h4 {
+        font-size: 1.1em;
+      }
+      .A4{
+        width: 21cm;
+        font-size: 0.9em;
+      }
+
+    td, th {
+        text-align: left;
+    }
+     .h0Wrapper, .h3Wrapper, .h4Wrapper {
+      page-break-inside :  avoid
+    }
+    </style>
+    <style media="print">
+        .A4{
+          width: auto
+        }
+      td, th {
+          text-align: left;
+      }
+       .h0Wrapper, .h3Wrapper, .h4Wrapper {
+      page-break-inside :  avoid
+    }
+      </style>
+  </head>
+
+  <body class="A4">
+    @@include('../dist/rehype.html')
+  </body>
+</html>
