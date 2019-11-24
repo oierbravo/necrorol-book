@@ -1,10 +1,10 @@
 {
   "name": "necrorol-md-pdf",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "./node_modules/gulp/bin/gulp.js build"
   },
   "author": "",
   "license": "ISC",
@@ -18,7 +18,7 @@
     "gulp-file-include": "^2.1.1",
     "gulp-html-pdf": "^0.3.0",
     "gulp-markdownit": "^1.0.3",
-    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-nunjucks": "^5.0.1",
     "gulp-remark": "^7.0.0",
     "gulp-remote-src": "^0.4.4",
     "gulp-rename": "^1.4.0",
