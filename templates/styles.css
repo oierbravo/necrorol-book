@@ -11,13 +11,7 @@ h1 {
     font-size: 1.1em;
   }
 
-  section.h3{
-    page-break-inside :  avoid
-  }
 
-  section.h4{
-    page-break-inside :  avoid
-  }
 td, th {
     text-align: left;
 }
@@ -42,9 +36,7 @@ td {
 h1 {
   background-color: #ccc !important;
 }
-.part {
-    page-break-inside :  avoid;
-}
+
 .pdf-download {
     display: block;
     position: absolute;
